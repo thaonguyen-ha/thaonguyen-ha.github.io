@@ -9,7 +9,7 @@ title = "Research"
 
 "Do Ceasefires Quench or Fuel Violence in Competitive Conflict Networks?"
 
-"Political Territoriality and Urban Violence in Postwar Abidjan" [with Sebastian van Ballen]. 
+"Political Territoriality and Urban Violence in Postwar Abidjan" [with Sebastian van Baalen]. 
 
 ## Publications
 
