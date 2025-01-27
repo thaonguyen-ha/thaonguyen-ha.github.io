@@ -5,15 +5,15 @@ title = "Teaching"
 # Courses taught
 
 ## As lead instructor
-Introduction to Computation for Political Science (Fall 2023, Fall 2024)
+- Introduction to Computation for Political Science (Fall 2023, Fall 2024)
 
 ## As teaching assistant
 
 *At Vanderbilt University*
-Introduction to International Relations
-Causes of War
-Quantitative Political Science I: Computing
-US Military
+- Introduction to International Relations
+- Causes of War
+- Quantitative Political Science I: Computing
+- US Military
 
 *At Ritsumeikan Asia Pacific University*
 Global Issues and Politics
