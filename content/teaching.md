@@ -16,8 +16,8 @@ title = "Teaching"
 - US Military
 
 *At Ritsumeikan Asia Pacific University*
-Global Issues and Politics
-Introduction to Japanese
+- Global Issues and Politics
+- Introduction to Japanese
 
 # Teaching materials
 
