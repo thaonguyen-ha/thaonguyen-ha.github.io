@@ -2,6 +2,6 @@
 title = "Curriculum Vitae"
 +++
 
-{{< embed-pdf url="cv/CV-Aug-2022.pdf" >}}
+{{< embed-pdf url="files/CV.pdf" >}}
 
-Last updated: August 2022
+Last updated: Jan 2025
