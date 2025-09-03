@@ -5,11 +5,19 @@ title = "Research"
 
 ## Work in Progress
 
-"Migration Opportunities and the Impact of Wartime Civilian Protests" presented at ISA 2024. 
+"Migration Opportunities and the Impact of Wartime Civilian Protests" (JMP)
 
 "Do Ceasefires Quench or Fuel Violence in Competitive Conflict Networks?"
 
 "Undercutting Protest" with Brenton Kenkel. 
+
+“Networked Peace? The Role of Peacekeepers in Complex Conflict Systems” with Cassy Dorff and Shahryar
+ Minhas
+
+“Cycles of Political Violence: Examining the Layered Relationship between Repression and Civil Conflict” with
+ Jessica Maves Braithwaite, Chaelin Kwon, and Emily Hencken Ritter
+
+“Measuring Conflict Salience with Google Trends Data” with Erin York
 
 ## Publications
 
