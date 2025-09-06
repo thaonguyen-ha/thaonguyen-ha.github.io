@@ -5,7 +5,7 @@ title = "Research"
 
 ## Work in Progress
 
-"Migration Opportunities and the Impact of Wartime Civilian Protests" (JMP)
+"Territorial Competition, Civilian Protests and Displacement in Civil Wars" (JMP)
 
 "Do Ceasefires Quench or Fuel Violence in Competitive Conflict Networks?"
 
