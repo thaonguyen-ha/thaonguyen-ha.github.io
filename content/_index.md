@@ -11,7 +11,10 @@ title = "Welcome!"
   
   <p>Previously, I also studied the role of emotion and status in foreign policy, especially in the context of East Asia. Prior to moving to Nashville, I worked as a research assistant at the Department of Peace and Conflict Research in Uppsala, Sweden, where I completed my Master's degree. I also hold a Bachelor's degree in International Relations from Ritsumeikan Asia Pacific University.</p> <br/>  In my capacity as an RA, I have collected georeferenced data for the <a href="https://www.pcr.uu.se/data/geo-pko/">Geo-PKO</a> and the <a href="https://pcr.uu.se/research/research-themes/conflict-dynamics/the-continuation-of-violence-in-postwar-cities/">Continuation of Conflict-related Violence in Postwar Cities projects</a>. </p>
   <br>
-  
+  A note on name: my last name is Hà, and Nguyên is my first name and not to be confused with the common Vietnamese last name Nguyễn. Together with my middle name, "Thảo Nguyên" means grassland, meadow, prairie. 
+  </p>
+
+  <br>
   You can contact me via email at nguyen [dot] t [dot] ha [at] vanderbilt [dot] edu. 
 
 
