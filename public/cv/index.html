@@ -1,11 +1,287 @@
-<!doctype html><html lang><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Curriculum Vitae</title>
-<meta name=description content><meta name=author content='Thao-Nguyen Ha'><link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel=stylesheet><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity=sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2 crossorigin=anonymous><link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin=anonymous><link rel=stylesheet href=/sass/researcher.min.css></head><body><div class="container mt-5"><nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0"><a class="navbar-brand mx-0 mr-sm-auto" href=https://thaonguyen-ha.github.io/ title="Thao-Nguyen Ha">Thao-Nguyen Ha</a><div class="navbar-nav flex-row flex-wrap justify-content-center"><a class="nav-item nav-link" href=/ title=Home>Home
-</a><span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/research title=Research>Research
-</a><span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/teaching title=Teaching>Teaching
-</a><span class="nav-item navbar-text mx-1">/</span>
-<a class="nav-item nav-link" href=/cv title=CV><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentcolor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 012-2h5.293A1 1 0 0110 .293L13.707 4a1 1 0 01.293.707V14a2 2 0 01-2 2H4a2 2 0 01-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 01-1-1zM11 8A3 3 0 115 8a3 3 0 016 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 001 1h8a1 1 0 001-1v-.245z"/></svg> CV</a></div></nav></div><hr><div id=content><div class=container><script src=/js/pdf-js/build/pdf.js></script><style>#the-canvas{border:1px solid #000;direction:ltr;width:100%;height:auto;display:none}#paginator{display:none;text-align:center;margin-bottom:10px}#loadingWrapper{display:none;justify-content:center;align-items:center;width:100%;height:350px}#loading{display:inline-block;width:50px;height:50px;border:3px solid #d2d0d0;border-radius:50%;border-top-color:#383838;animation:spin 1s ease-in-out infinite;-webkit-animation:spin 1s ease-in-out infinite}@keyframes spin{to{-webkit-transform:rotate(360deg)}}@-webkit-keyframes spin{to{-webkit-transform:rotate(360deg)}}</style><div id=paginator><button id=prev>Previous</button>
-<button id=next>Next</button>
-&nbsp; &nbsp;
-<span>Page: <span id=page_num></span> / <span id=page_count></span></span></div><div id=embed-pdf-container><div id=loadingWrapper><div id=loading></div></div><canvas id=the-canvas></canvas></div><script type=text/javascript>window.onload=function(){c="https://thaonguyen-ha.github.io//files/CV.pdf",u=""==="true",l=""==="true",h=parseInt("")||1,o=window["pdfjs-dist/build/pdf"],o.GlobalWorkerOptions.workerSrc="https://thaonguyen-ha.github.io//js/pdf-js/build/pdf.worker.js";var o,c,l,u,h,n=null,e=h,i=!1,s=null,b=3,t=document.getElementById("the-canvas"),m=t.getContext("2d"),f=document.getElementById("paginator"),r=document.getElementById("loadingWrapper");v(),g();function a(e){i=!0,n.getPage(e).then(function(e){var o,r,n=e.getViewport({scale:b});t.height=n.height,t.width=n.width,o={canvasContext:m,viewport:n},r=e.render(o),r.promise.then(function(){i=!1,p(),s!==null&&(a(s),s=null)})}),document.getElementById("page_num").textContent=e}function p(){r.style.display="none",t.style.display="block"}function g(){if(l)return;r.style.display="flex",t.style.display="none"}function v(){if(u)return;f.style.display="block"}function d(e){i?s=e:a(e)}function j(){if(e<=1)return;e--,d(e)}document.getElementById("prev").addEventListener("click",j);function y(){if(e>=n.numPages)return;e++,d(e)}document.getElementById("next").addEventListener("click",y),o.getDocument(c).promise.then(function(t){n=t;var s=n.numPages;document.getElementById("page_count").textContent=s,e>s&&(e=s),a(e)})}</script><p>Last updated: August 2025</p></div></div><div id=footer class=mb-5><hr><div class="container text-center"><a href=https://twitter.com/HaThaoNguyen class=fa-1x title=Twitter></a><a href=https://github.com/thaonguyen-ha class=fa-1x title=GitHub></a></div><div class="container text-center"><a href=https://github.com/ojroques/hugo-researcher title="Theme designed by Olivier Roques"><small>Theme designed by Olivier Roques</small></a></div></div></body></html>
+<!DOCTYPE html>
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Curriculum Vitae</title>
+    <meta name="description" content="">
+    <meta name="author" content='Thao-Nguyen Ha'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+
+    
+        
+  
+
+
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://thaonguyen-ha.github.io/" title="Thao-Nguyen Ha">
+          
+          Thao-Nguyen Ha
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/" title="Home">
+                        Home
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/research" title="Research">
+                        Research
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/teaching" title="Teaching">
+                        Teaching
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/cv" title="CV">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/></svg> CV
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <script src= '/js/pdf-js/build/pdf.js'></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+  display: none;
+}
+
+#paginator {
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#loadingWrapper {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+}
+
+#loading {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #d2d0d0;;
+  border-radius: 50%;
+  border-top-color: #383838;
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <div id="loadingWrapper">
+      <div id="loading"></div>
+    </div>
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+var url = "https:\/\/thaonguyen-ha.github.io\/" + '\/files\/CV.pdf';
+
+var hidePaginator = "" === "true";
+var hideLoader = "" === "true";
+var selectedPageNum = parseInt("") || 1;
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "https:\/\/thaonguyen-ha.github.io\/" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = selectedPageNum,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d'),
+    paginator = document.getElementById("paginator"),
+    loadingWrapper = document.getElementById('loadingWrapper');
+
+
+
+showPaginator();
+showLoader();
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      showContent();
+      
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function showContent() {
+  loadingWrapper.style.display = 'none';
+  canvas.style.display = 'block';
+}
+
+
+
+function showLoader() {
+  if(hideLoader) return
+  loadingWrapper.style.display = 'flex';
+  canvas.style.display = 'none';
+}
+
+
+
+function showPaginator() {
+  if(hidePaginator) return
+  paginator.style.display = 'block';
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  var numPages = pdfDoc.numPages;
+  document.getElementById('page_count').textContent = numPages;
+  
+  
+  if(pageNum > numPages) {
+    pageNum = numPages
+  }
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+
+<p>Last updated: August 2025</p>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    <hr>
+    
+    <div class="container text-center">
+        
+            <a href="https://twitter.com/HaThaoNguyen" class=" fa-1x" title="Twitter"></a>
+        
+            <a href="https://github.com/thaonguyen-ha" class=" fa-1x" title="GitHub"></a>
+        
+    </div>
+    
+    
+        <div class="container text-center">
+            <a href="https://github.com/ojroques/hugo-researcher" title="Theme designed by Olivier Roques"><small>Theme designed by Olivier Roques</small></a>
+        </div>
+    
+</div>
+</body>
+</html>
